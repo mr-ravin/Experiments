@@ -34,7 +34,7 @@ y=tf.placeholder(tf.float32,[None,2])
 
 
 ############
-#This function swaps the weights w.r.t the column of weight matrix.
+#This function swaps the weights w.r.t the column of weight matrix ( i.e. w.r.t inputs ).
 def swap_column(arr):
   size=arr.shape
   row=size[0]
@@ -58,7 +58,7 @@ def swap_column(arr):
 
 
 ###########
-#This function swaps the weights w.r.t the row of weight matrix.
+#This function swaps the weights w.r.t the row of weight matrix( i.e. w.r.t. neurons ).
 def swap_row(arr):
   size=arr.shape
   row=size[0]
