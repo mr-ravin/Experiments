@@ -3,4 +3,4 @@ This repository includes programs that are designed for experimentation for some
 
 #### Author: [Ravin Kumar](https://mr-ravin.github.io)
 
-##### Written in Tensorflow: 1.2
+##### Written in Tensorflow: 1.12
